@@ -1,0 +1,43 @@
+body{
+ background-image:url("plano.jpeg");
+}
+
+h1{
+text-align:center;
+}
+
+h2{
+text-align:center;
+}
+
+p{
+text-align:justify;
+}
+
+#container{
+display:grid;
+grid-template-columns: 1fr; 
+grid-template-rows: 1fr; 
+height:500px;
+width:75%;
+background-color:blue;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 15px;
+}
+			
+nav{
+ height:50px;
+ width:100%;
+ text-align:center;
+ background-color:green;
+ margin-top:auto;
+}
+
+.home{
+ margin-top:auto;
+ text-decoration:blink;
+ border:14px;
+ font-size:20px;
+ color:white;
+}
