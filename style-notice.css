@@ -1,0 +1,21 @@
+body{
+	background-color: #2E8B57;
+	padding: 0px;
+	margin: 80px 40px 80px 300px;
+		
+		
+	}
+	
+section{
+	height: 500%;
+	width: 80%;
+	background: white;
+	border-radius: 15px;
+	text-align: centerter;
+	
+}
+aside{
+	text-align: center;
+border-bottom: solid 1px #DCDCDC;
+}
+
