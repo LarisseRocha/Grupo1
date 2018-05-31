@@ -1,21 +1,35 @@
 body{
-	background-color: #2E8B57;
+	background: linear-gradient(#2E8B57,#3CB371);	
+}	
+
+main{
 	padding: 0px;
-	margin: 80px 40px 80px 300px;
-		
-		
-	}
-	
+	margin: 80px 50px 80px 200px;
+}
+h1{ 
+	color: white;
+	text-shadow: 2px -1px 10px black;
+}	
+
+a{
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+	color: #4169E1;
+	padding: 2px;
+}
 section{
 	height: 500%;
 	width: 80%;
 	background: white;
+	padding: 15px;
 	border-radius: 15px;
-	text-align: centerter;
-	
+	font-family:verdana;
 }
 aside{
 	text-align: center;
-border-bottom: solid 1px #DCDCDC;
 }
+
+	h3{
+		color: #2F4F4F;
+	}
 
