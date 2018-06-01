@@ -1,0 +1,31 @@
+#links_menu ul {
+    padding: 0px;
+	margin: 0px;
+    list-style:none;
+	font-family: verdana;
+	text-align: center;
+}
+
+#links_menu li { display: inline; }
+
+#links_menu a {
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+	border-bottom: none;
+}
+
+
+
+#links_menu a:hover {
+    background-color:rgba(32,178,170, 0.4);
+    color: #088A08;
+    border-bottom: 1px solid black;
+}
+	
+body{
+	background-color:#04B404;
+    width: 80%;
+	margin: auto;
+					
+				}
