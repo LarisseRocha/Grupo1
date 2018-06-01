@@ -24,12 +24,45 @@ section{
 	padding: 15px;
 	border-radius: 15px;
 	font-family:verdana;
-}
-aside{
-	text-align: center;
+	text-align:center;
 }
 
 	h3{
 		color: #2F4F4F;
 	}
+	
+#links-news{
+	text-align:center;
+}
+	
+#links-news ul {
+list-style-type:none;
+margin:0;
+padding:0;
+width:800px;
+}
 
+
+#links-news li {
+border:1px dotted #999;
+border-width:1px 0;
+margin:5px 0;
+}
+
+
+#links-news li a {
+color:#990000;
+display:block;
+font:bold 14px Arial, Helvetica, sans-serif;
+padding:5px;
+text-decoration:none;
+}
+
+ 
+* html #links-news li a {width:400px; text-align:center;} /*Necessario para que funcione no IE6*/
+
+#links-news li a:hover {
+background-color:#ffffcc;
+}
+ 
+ 

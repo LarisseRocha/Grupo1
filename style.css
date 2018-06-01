@@ -2,17 +2,6 @@ body{
 	background: linear-gradient(#2E8B57,#3CB371);
 }
 
-#container{
-	               display:grid;
-	               grid-template-columns: 1fr 1fr; 
-	               grid-template-rows: 1fr; 
-				   background-color:white;
-				   padding: 15px;
-				   margin-bottom: 22px;
-				   border-radius: 12px;
-                }
-	
-
 #menu {
 	text-align:center;
 	background:linear-gradient(#2E8B57,#3CB371);
@@ -26,14 +15,14 @@ body{
 	font-family: verdana;
 }
 
-#menu ul li{display: inline;}
+#menu ul li{display: inline; font-family:verdana;}
 
 #menu a{
 	padding: 7px 10px;
 	display: inline-block;
 	text-decoration: none;
 	border-bottom: none;
-	color: #00008B;
+	color: #A9F482;
 }
 #menu a:hover{
 		background-color: #00688B;
